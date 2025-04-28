@@ -24,7 +24,7 @@ This course introduces the fundamental concepts of machine learning and deep lea
 
 - Basic knowledge of Python programming
 - Familiarity with basic statistical concepts
-- PyTorch installed in the development environment
+- PyTorch installed in the development environment or Google Colab
 
 ## Repository Structure
 
