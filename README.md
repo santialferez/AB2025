@@ -10,7 +10,7 @@ This course introduces the fundamental concepts of machine learning and deep lea
 
 | Session | Date | Topic |
 |--------|-------|------|
-| S1 | April 28 | History and introduction to PyTorch |
+| S1 | April 28 | Introduction to PyTorch |
 | S2 | May 5 | Introduction to Deep Learning, SLN, MLN |
 | S3 | May 7 | Neural Network Fitting (Gradient Descent and Backpropagation) |
 | S4 | May 12 | SLN from scratch, Loss Functions, Optimizers, DL Workshop 1 |
