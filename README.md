@@ -1,10 +1,10 @@
-# Bioestatistical Learning (AB2025)
+# Bioestatistical Learning (AB2025) - Part 3: Introduction to Deep Learning
 
-Course from Universitat Politècnica de Catalunya (UPC) on machine learning and deep learning applied to biostatistics.
+This is the third part of the Bioestatistical Learning course from Universitat Politècnica de Catalunya (UPC), focusing specifically on deep learning and its applications in biostatistics. The course follows two previous parts that covered fundamental machine learning concepts.
 
 ## Course Description
 
-This course introduces the fundamental concepts of machine learning and deep learning, with a special focus on their application in the field of biostatistics. Through theoretical and practical sessions, students will learn to implement and train deep learning models using PyTorch, from basic neural networks to advanced architectures like Transformers.
+This part of the course introduces the fundamental concepts of deep learning, with a special focus on their application in the field of biostatistics. Through theoretical and practical sessions, students will learn to implement and train deep learning models using PyTorch, from basic neural networks to advanced architectures like Transformers. This builds upon the knowledge acquired in the previous parts of the course, which covered classical machine learning techniques.
 
 ## Session Schedule
 
