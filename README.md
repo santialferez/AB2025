@@ -10,15 +10,15 @@ This part of the course introduces the fundamental concepts of deep learning, wi
 
 | Session | Date | Topic | Materials |
 |--------|-------|------|-----------|
-| S1 | April 28 | Introduction to PyTorch | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/santialferez/AB2025/blob/main/S1/intro_pytorch_AB2025_est.ipynb) |
-| S2 | May 5 | Introduction to Deep Learning, SLN, MLN | |
-| S3 | May 7 | Neural Network Fitting (Gradient Descent and Backpropagation) | |
-| S4 | May 12 | SLN from scratch, Loss Functions, Optimizers, DL Workshop 1 | |
-| S5 | May 14 | CNNs and CNN practice | |
-| S6 | May 19 | Transformers 1: Attention and Natural Language Processing | |
-| S7 | May 21 | Transformers 2: Language Models and Multimodal Transformers | |
-| S8 | May 26 | Hugging Face and training Transformers | |
-| S9 | May 28 | [Optional] Prompt Engineering | |
+| S1 | May 5 | Introduction to PyTorch | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/santialferez/AB2025/blob/main/S1/intro_pytorch_AB2025_est.ipynb) |
+| S2 | May 7 | Introduction to Deep Learning, SLN, MLN | |
+| S3 | May 12 | Neural Network Fitting (Gradient Descent and Backpropagation) | |
+| S4 | May 14 | SLN from scratch, Loss Functions, Optimizers, DL Workshop 1 | |
+| S5 | May 19 | CNNs and CNN practice | |
+| S6 | May 21 | Transformers 1: Attention and Natural Language Processing | |
+| S7 | May 26 | Transformers 2: Language Models and Multimodal Transformers | |
+| S8 | May 28 | Hugging Face and training Transformers | |
+| S9 | ????? | [Optional] Prompt Engineering | |
 
 ## Requirements
 
