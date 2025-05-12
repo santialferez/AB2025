@@ -11,8 +11,8 @@ This part of the course introduces the fundamental concepts of deep learning, wi
 | Session | Date | Topic | Materials |
 |--------|-------|------|-----------|
 | S1 | May 5 | Introduction to PyTorch | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/santialferez/AB2025/blob/main/S1/intro_pytorch_AB2025_est.ipynb) |
-| S2 | May 7 | Introduction to Deep Learning, SLN, MLN | |
-| S3 | May 12 | Neural Network Fitting (Gradient Descent and Backpropagation) | |
+| S2 | May 7 | Review of Regression from a DL Point of View | [Presentation](https://github.com/santialferez/AB2025/blob/main/S2/SLN_reg_red_est.html) |
+| S3 | May 12 | Multilayer Neural Network, Fitting and Backpropagation | |
 | S4 | May 14 | SLN from scratch, Loss Functions, Optimizers, DL Workshop 1 | |
 | S5 | May 19 | CNNs and CNN practice | |
 | S6 | May 21 | Transformers 1: Attention and Natural Language Processing | |
@@ -29,10 +29,10 @@ This part of the course introduces the fundamental concepts of deep learning, wi
 ## Repository Structure
 
 This repository contains:
-- Session materials
-- Code examples
+- Session materials organized by session (S1, S2, S3, etc.)
+- Code examples and Jupyter notebooks
 - Practical exercises
-- Additional resources
+- Additional resources and reference materials
 
 ## Additional Resources
 
