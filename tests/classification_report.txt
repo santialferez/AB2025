@@ -1,0 +1,23 @@
+MLP with Combined GELU - Classification Report
+==================================================
+
+Test Accuracy: 0.9500
+Best Validation Loss: 0.1066
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.97      0.99        35
+           1       0.95      0.97      0.96        37
+           2       0.94      0.89      0.91        35
+           3       0.90      0.97      0.94        37
+           4       0.97      0.94      0.96        36
+           5       0.97      0.97      0.97        37
+           6       0.97      0.97      0.97        36
+           7       0.92      1.00      0.96        36
+           8       0.97      0.91      0.94        35
+           9       0.91      0.89      0.90        36
+
+    accuracy                           0.95       360
+   macro avg       0.95      0.95      0.95       360
+weighted avg       0.95      0.95      0.95       360

@@ -1,0 +1,7 @@
+Combined GELU Activation Function Test
+========================================
+
+Input: tensor([ 0.,  1., -1.,  2., -2.])
+Combined GELU output: tensor([0.0000, 0.6827, 0.6827, 1.9090, 1.9090])
+Regular GELU(x): tensor([ 0.0000,  0.8413, -0.1587,  1.9545, -0.0455])
+Regular GELU(-x): tensor([-0.0000, -0.1587,  0.8413, -0.0455,  1.9545])

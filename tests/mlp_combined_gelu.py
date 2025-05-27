@@ -307,7 +307,7 @@ def main():
     
     # Learning rate scheduler
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(
-        optimizer, mode='min', factor=0.5, patience=5, verbose=True
+        optimizer, mode='min', factor=0.5, patience=5
     )
     
     # Training loop
@@ -374,13 +374,27 @@ def main():
     # Detailed classification report
     class_names = [str(i) for i in range(num_classes)]
     print("\nClassification Report:")
-    print(classification_report(test_targets, test_predictions, target_names=class_names))
+    report = classification_report(test_targets, test_predictions, target_names=class_names)
+    print(report)
+    
+    # Save classification report to file
+    with open('classification_report.txt', 'w') as f:
+        f.write("MLP with Combined GELU - Classification Report\n")
+        f.write("=" * 50 + "\n\n")
+        f.write(f"Test Accuracy: {test_accuracy:.4f}\n")
+        f.write(f"Best Validation Loss: {best_val_loss:.4f}\n\n")
+        f.write("Classification Report:\n")
+        f.write(report)
     
     # Plot training history
     plot_training_history(train_losses, val_losses, train_accuracies, val_accuracies)
+    plt.savefig('training_history.png', dpi=300, bbox_inches='tight')
+    plt.show()
     
     # Plot confusion matrix
     plot_confusion_matrix(test_targets, test_predictions, class_names)
+    plt.savefig('confusion_matrix.png', dpi=300, bbox_inches='tight')
+    plt.show()
     
     # Test the combined GELU activation function
     print("\nTesting Combined GELU activation function:")
@@ -392,7 +406,21 @@ def main():
     print(f"Regular GELU(x): {F.gelu(test_input)}")
     print(f"Regular GELU(-x): {F.gelu(-test_input)}")
     
+    # Save activation function test results
+    with open('activation_function_test.txt', 'w') as f:
+        f.write("Combined GELU Activation Function Test\n")
+        f.write("=" * 40 + "\n\n")
+        f.write(f"Input: {test_input}\n")
+        f.write(f"Combined GELU output: {output}\n")
+        f.write(f"Regular GELU(x): {F.gelu(test_input)}\n")
+        f.write(f"Regular GELU(-x): {F.gelu(-test_input)}\n")
+    
     print("\nTraining completed successfully!")
+    print("Results saved to:")
+    print("- classification_report.txt")
+    print("- training_history.png")
+    print("- confusion_matrix.png")
+    print("- activation_function_test.txt")
 
 
 if __name__ == "__main__":
