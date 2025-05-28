@@ -17,7 +17,7 @@ This part of the course introduces the fundamental concepts of deep learning, wi
 | S5 | May 19 | CNNs and CNN practice | [Presentation (PDF)](https://github.com/santialferez/AB2025/blob/main/S5/DL4.pdf) <br> [![CNN Practice](https://img.shields.io/badge/Colab-CNN_Practice-blue?logo=googlecolab)](https://colab.research.google.com/github/santialferez/AB2025/blob/main/S5/Prac4/ConvNet_Pract.ipynb) <br> [![CNN Basics](https://img.shields.io/badge/Colab-CNN_Basics-blue?logo=googlecolab)](https://colab.research.google.com/github/santialferez/AB2025/blob/main/S5/B_CNN.ipynb) |
 | S6 | May 21 | Transformers 1: Attention and Natural Language Processing | [![Transformers Part 1](https://img.shields.io/badge/Colab-Transformers_Part_1-blue?logo=googlecolab)](https://colab.research.google.com/github/santialferez/AB2025/blob/main/S6/Transformers_Part1_est.ipynb) |
 | S7 | May 26 | Transformers 2: Language Models and Multimodal Transformers | [![Part 1 Summary](https://img.shields.io/badge/Colab-Part_1_Summary-blue?logo=googlecolab)](https://colab.research.google.com/github/santialferez/AB2025/blob/main/S7/Transformers_Part1_summary.ipynb) <br> [![Transformers Part 2](https://img.shields.io/badge/Colab-Transformers_Part_2-blue?logo=googlecolab)](https://colab.research.google.com/github/santialferez/AB2025/blob/main/S7/Transformers_Part2_est.ipynb) |
-| S8 | May 28 | Hugging Face and training Transformers | |
+| S8 | May 28 | Hugging Face and training Transformers | [![Hugging Face Intro](https://img.shields.io/badge/Colab-Hugging_Face_Intro-blue?logo=googlecolab)](https://colab.research.google.com/github/santialferez/AB2025/blob/main/S8/intro_HF_est.ipynb) |
 | S9 | ????? | [Optional] Prompt Engineering | |
 
 ## Requirements
