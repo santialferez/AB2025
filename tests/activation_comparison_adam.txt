@@ -1,7 +1,0 @@
-Activation Function Comparison
-==============================
-
-Input:           tensor([-2., -1.,  0.,  1.,  2.])
-Regular GELU:    tensor([-0.0455, -0.1587,  0.0000,  0.8413,  1.9545])
-Combined GELU:   tensor([1.9090, 0.6827, 0.0000, 0.6827, 1.9090])
-Difference:      tensor([ 1.9545,  0.8413,  0.0000, -0.1587, -0.0455])
